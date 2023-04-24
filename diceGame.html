@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"><!--chama Css --> 
+    <title>Game - War</title>
+</head>
+
+<body>
+
+ <!--sons-->
+<audio src="Sons/Terrostta-rot.ogg" class="Music_inic"></audio><!--Musica de introduçao-->
+<audio src="Jog_dados.mp3"          class="leave"></audio><!--Jogada de dados-->
+<audio src="Sons/Explosão.mp3"      class="Danger"></audio><!--Musica de Derrota-->
+<audio src="Sons/Vitoria.mp3"       class="enter"></audio><!--Musica de Vitoria-->
+<audio src="Sons/palmas.mp3"        class="Empate"></audio><!--Musica de Empate-->
+ <!--sons-- [0]/[4]-->
+
+<div class="placar">
+ <div class="replay">Replay:</div>
+ <div class="player1">JOG1 AUTOR : CARLEONE</div>
+ <div class="player2">JOG2</div>
+</div>
+
+<div class="container"><!--armazenamento da extrutura css --> 
+
+   
+        
+<h1>War Games</h1><!--Apresenta Vitoria Empate Derrota--> 
+
+            <!--Jogador 1-->
+            <div class="dados">
+                <p id="ptns1"></p><span>Pontos</span><!--Recebe o nome e os pontos-->
+                <p class="Jogador1">Jogador 1</p>
+                <img src="dice6.png" alt="dice 6" class="img1">
+            </div>
+
+            <!--Jogador 2-->
+            <div class="dados">
+                <p id="ptns2"></p><span>Pontos</span>
+                <p class="Jogador2">Jogador 2</p><!--Recebe o nome e os pontos-->
+                <img src="dice6.png" alt="dice 6" class="img2">
+            </div>
+
+          <!--Jogador 3-->
+            <div class="dados">
+                 <p id="ptns3"></p><span>Pontos</span>
+                 <p class="Jogador3">Jogador 3</p><!--Recebe o nome e os pontos-->
+                <img src="dice6.png" alt="dice 6" class="img3">
+          </div>
+
+             <!--Botão de execução -->
+        <div class="container bottom">
+            <button type="button" class="btn" onclick="Jogar_Dados()"><!--Event javascript -->
+                Jogue os Dados</button> <!--Botão --> 
+        </div>
+
+             <!--Botão Recolhe nome dos players  -->
+        <div class="container bottom">
+            <button type="button" class="btn" onclick="Nomes()" ><!--Event javascript -->
+            Coloque o seu Nome</button><!--Botão --> 
+            
+
+<script src="script.js"></script><!--chama Javascript  --> 
+
+<!--Document criado por Carll@2023  --> 
+    </div>
+</div>  
+    
+</body>
+
+</html>

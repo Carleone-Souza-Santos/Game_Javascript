@@ -1,0 +1,92 @@
+.placar{                      /**/
+
+display: flex;
+justify-content: center;
+}
+.replay{                      /**/
+padding-left: 10px;
+}
+.player1{                    /**/
+padding-left: 10px;
+}
+.player2{                    /**/
+padding-left: 10px;
+}
+.container {                 /*Escopo da Tela principal*/
+    width: 65%;
+    margin: auto;
+    text-align: center;
+}
+#ptns1{                       /*pontos jog 1*/
+    font-size: 20px;
+    border: none;
+    box-shadow: none;
+    color: black;
+    background-color: aliceblue;
+   border-radius: 100px;
+}  
+#ptns2{                       /*pontos jog 2*/
+    font-size: 20px;
+    border: none;
+    box-shadow: none;
+    color: black;
+    background-color: aliceblue;
+   border-radius: 100px;
+}    
+#ptns3{                       /*pontos jog 2*/
+    font-size: 20px;
+    border: none;
+    box-shadow: none;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 100px;
+}  
+.dados {                     /*as img dos dados */
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+    
+}
+body {                       /*Fundo de tela*/
+    background-color: #2574a8;
+    margin: 0;
+}
+h1 {                         /*Texto principal  */
+    margin: 30px;
+    font-family: "Lobster", cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 4.5rem;
+    color: #df6909;
+    text-align: center;
+}
+p {                          /*testo que recebe jogadores */
+    font-size: 2rem;
+    color:  #df6909;
+    font-family: "Indie Flower", cursive;
+   
+}
+img {                        /*imagens dos dados */
+    width: 30%; 
+  
+}
+.bottom {                    /*espaçamento entre os botões  */
+    padding-top: 5px;
+}
+.btn {                       /*  botões  */
+    background: #df6909;
+    font-family: "Indie Flower", cursive;
+    border-radius: 20px;
+    color: #ffff;
+    font-size: 10px;
+    padding: 6px 6px 6px 6px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 1s;
+}
+.btn:hover {                 /* Efeito  botões  */
+    background: #232931;
+    text-decoration: none;
+    transition: 1s;
+}
+
+/*Document criado por Carll@2023*/
